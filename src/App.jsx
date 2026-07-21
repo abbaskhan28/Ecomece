@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Product from "./product";
-import LandingPage from "./landingPage";
+import LandingPage from "../src/landingPage";
+import Product from "../src/product";
 import { Provider } from "react-redux";
-import { store } from "./store";
+import { store } from "../src/store";
 
 function App() {
   return (
